@@ -1,0 +1,68 @@
+logs
+target
+.idea
+.settings
+RUNNING_PID
+.ivy2
+META-INF/
+
+
+### Scala template
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# bloop and metals
+.bloop/
+.metals/
+
+### PlayFramework template
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/logs/
+/modules
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+### SBT template
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+.sbt
+.idea_modules/
+native/
+
+### Javascript
+# NPM
+node_modules/
+src/main/public/javascripts/node_modules/
+src/main/public/javascripts/package-lock.json
+src/main/public/react-ui
+
+ui/.docz
+.hydra
+
+## config file vscode intellisense
+ui/jsconfig.json
+
+## front end development env file
+ui/.env
